@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+  </head>
+
+  <body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+    <h2 id="inicio" style="color: blue">Índice:</h2>
+
+    <ol>
+      <li><a href="#histCompute">História dos computadores</a></li>
+      <li><a href="#clients">O que são Clients?</a></li>
+      <li><a href="#servers">O que são Servers?</a></li>
+      <li><a href="#html">Como é uma estrutura básica de um HTML?</a></li>
+      <li><a href="#lista">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+      <li><a href="#tegs">Tegs HTML</a></li>
+      <li><a href="#linksUtes">Links de referências</a></li>
+    </ol>
+
+    <hr />
+
+    <h2 id="histCompute">História dos computadores</h2>
+    <small>
+      <a style="color: red" href="#inicio"> &lt; Voltar para o inicio </a>
+    </small>
+    <p>
+      A história do computador é marcada por um longo processo de evolução,
+      desde o ábaco (c. 2600 a.C.) até os dispositivos atuais, passando por
+      invenções como a máquina analítica de Charles Babbage e os primeiros
+      computadores eletrônicos como o ENIAC (1946). A evolução pode ser dividida
+      em gerações, impulsionadas por avanços como as válvulas, os transistores
+      e, principalmente, o circuito integrado (microchip), que tornaram os
+      computadores menores, mais rápidos e acessíveis.
+    </p>
+
+    <h3>Primórdios e a era mecânica</h3>
+    <ul>
+      <li>
+        <img
+          style="width: 50px"
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b5/RomanAbacusRecon.jpg"
+          alt="Ábaco"
+        />
+        <strong>
+          <a
+            href="https://pt.wikipedia.org/wiki/%C3%81baco"
+            title="Conheça a sua história"
+            target="_blank"
+          >
+            Ábaco (c. 2600 a.C.):
+          </a>
+        </strong>
+        Considerado um dos primeiros dispositivos de cálculo.
+      </li>
+
+      <li style="margin-top: 20px">
+        <img
+          style="width: 50px"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Charles_Babbage_-_1860.jpg/250px-Charles_Babbage_-_1860.jpg"
+          alt="Charles Babbage"
+        />
+        <strong>
+          <a
+            href="https://pt.wikipedia.org/wiki/Charles_Babbage"
+            title="Conheça a sua história"
+            target="_blank"
+          >
+            Charles Babbage (início do séc. XIX):
+          </a>
+        </strong>
+        Concebeu o conceito de um computador programável com sua "Máquina
+        Analítica", que usava cartões perfurados para instruções e possuía uma
+        unidade lógica, controle de fluxo e memória.
+      </li>
+
+      <li style="margin-top: 20px">
+        <img
+          style="width: 50px"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png/250px-Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png"
+          alt="Ada Lovelace "
+        />
+        <strong>
+          <a
+            href="https://pt.wikipedia.org/wiki/Ada_Lovelace"
+            title="Conheça a sua história"
+            target="_blank"
+          >
+            Ada Lovelace:
+          </a>
+        </strong>
+        Colaboradora de Babbage, é reconhecida como a primeira programadora por
+        ter escrito algoritmos para essa máquina.
+      </li>
+
+      <li style="margin-top: 20px">
+        <img
+          style="width: 50px"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Portrait_of_George_Boole.png/250px-Portrait_of_George_Boole.png"
+          alt="George Boole"
+        />
+        <strong>
+          <a
+            href="https://en.wikipedia.org/wiki/George_Boole"
+            title="Conheça a sua história"
+            target="_blank"
+          >
+            George Boole:
+          </a>
+        </strong>
+        Desenvolveu a lógica booleana, fundamental para o funcionamento de
+        computadores modernos, utilizando apenas dois valores: 0 e 1.
+      </li>
+    </ul>
+
+    <h3>Era eletrônica (1940s - presente)</h3>
+
+    <ul>
+      <li>
+        <strong>Primeira geração (c. 1940s):</strong>
+        Dominada por válvulas eletrônicas, resultando em máquinas enormes e que
+        consumiam muita energia. Exemplos incluem o
+        <i>
+          <a
+            href="https://en.wikipedia.org/wiki/Harvard_Mark_I"
+            title="Conheça a sua história"
+            target="_blank"
+          >
+            Mark I (1944)
+          </a>
+        </i>
+        e o
+        <i>
+          <a
+            href="https://pt.wikipedia.org/wiki/ENIAC"
+            title="Conheça a sua história"
+            target="_blank"
+          >
+            ENIAC (1946)
+          </a> </i
+        >.
+      </li>
+
+      <li style="margin-top: 20px">
+        <strong>Segunda geração (c. 1950s-1960s):</strong>Uso de transistores,
+        que tornaram os computadores menores, mais rápidos e mais eficientes em
+        comparação com a geração anterior.
+      </li>
+
+      <li style="margin-top: 20px">
+        <strong>Terceira geração (c. 1960s-1970s):</strong>A invenção do
+        circuito integrado (microchip) permitiu a criação de computadores ainda
+        menores, mais poderosos e mais baratos, levando ao desenvolvimento dos
+        softwares e o início dos computadores pessoais.
+      </li>
+
+      <li style="margin-top: 20px">
+        <strong> Quarta geração (c. 1970s-presente): </strong>
+        Caracterizada pelo microprocessador, que consolidou a miniaturização e a
+        computação pessoal. Computadores como o
+        <i>
+          <a
+            href="https://en.wikipedia.org/wiki/TRS-80"
+            title="Conheça a sua história"
+            target="_blank"
+            >TRS-80 (1977)
+          </a>
+        </i>
+        se popularizaram e o uso do mouse e interfaces gráficas se tornou comum.
+      </li>
+
+      <li style="margin-top: 20px">
+        <strong>Quinta geração (presente):</strong> Foco em inteligência
+        artificial, computação em nuvem e conectividade global, com o
+        desenvolvimento de máquinas que aprendem e tomam decisões.
+      </li>
+    </ul>
+
+    <h2 id="clients">O que são Clients?</h2>
+    <small>
+      <a style="color: red" href="#inicio"> &lt; Voltar para o inicio </a>
+    </small>
+
+    <p>
+      Em computação, um
+      <i>
+        <a
+          href="https://en.wikipedia.org/wiki/Client_(computing)"
+          title="Saiba mais"
+          target="_blank"
+        >
+          cliente
+        </a>
+      </i>
+      é um dispositivo ou software que solicita serviços ou informações a outro
+      computador, o servidor. Ele é a parte da arquitetura de rede que inicia a
+      comunicação, como seu navegador <mark>(Chrome, Firefox)</mark> ou um
+      aplicativo <mark>(WhatsApp)</mark>, que busca dados ou funcionalidades de
+      um servidor na internet. O cliente, como um smartphone ou desktop, envia a
+      requisição e recebe a resposta do servidor.
+    </p>
+
+    <h2 id="servers">O que são Servers?</h2>
+    <small>
+      <a style="color: red" href="#inicio"> &lt; Voltar para o inicio </a>
+    </small>
+
+    <p>
+      <i>
+        <a
+          href="https://en.wikipedia.org/wiki/Server_(computing)"
+          title="Saiba mais"
+          target="_blank"
+        >
+          Servidores
+        </a>
+      </i>
+      são computadores ou sistemas poderosos que fornecem recursos, dados,
+      serviços e aplicativos para outros computadores em uma rede, chamados de
+      clientes. Eles funcionam no modelo cliente-servidor, processando
+      solicitações, armazenando informações e distribuindo conteúdo para
+      múltiplos usuários simultaneamente. Exemplos incluem servidores web, de
+      e-mail, de arquivos e de jogos
+    </p>
+
+    <h2 id="html">Como é uma 
+        <a 
+            href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content"
+            title="Saiba mais"
+            target="_blank"
+        >
+        estrutura básica de um HTML?
+        </a>
+    </h2>
+    <small>
+      <a style="color: red" href="#inicio"> &lt; Voltar para o inicio </a>
+    </small>
+    <pre>
+        <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang=&quot;pt-br&quot;&gt;
+            &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;title&gt;Título que Aparece na Aba&lt;/title&gt;
+            
+            &lt;!-- Aqui linkamos CSS e outras configurações --&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;!-- O conteúdo visível vai aqui --&gt;
+            &lt;h1&gt;Exemplo de Código Exibido&lt;/h1&gt;
+            &lt;p&gt;Esta é a estrutura básica de qualquer página web.&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+
+    <ul>
+        <li>
+            <strong>&lt;!DOCTYPE html&gt;</strong>	Diz ao navegador que este é um documento HTML5 (obrigatório, sempre a primeira linha!).
+        </li>
+        <li style="margin-top: 20px">
+            <strong>&lt;html lang="pt-br"&gt;</strong>
+            O elemento raiz que engloba todo o conteúdo. O atributo lang define o idioma principal da página.
+        </li>
+        <li style="margin-top: 20px">
+            <strong>&lt;head&gt;</strong>
+            A "cabeça" da página. Contém metadados (informações sobre o documento). Nada aqui é visível para o usuário.
+        </li>
+        <li style="margin-top: 20px">
+            <strong>&lt;meta charset="UTF-8"&gt;</strong>
+            Define a codificação de caracteres para suportar acentuação e caracteres especiais (tipo "ç"). Essencial!
+        </li>
+        <li style="margin-top: 20px">
+            <strong>&lt;meta name="viewport"...&gt;</strong>
+            Configuração para tornar sua página responsiva e funcionar bem em celulares (largura do dispositivo).
+        </li>
+        <li style="margin-top: 20px">
+            <strong>&lt;title&gt;</strong>
+            Define o texto que aparece na aba do navegador.
+        </li>
+        <li style="margin-top: 20px">
+            <strong>&lt;body&gt;</strong>
+            O corpo da página. Contém todo o conteúdo visível (textos, imagens, links, botões, etc.).
+        </li>
+    </ul>
+
+    <h2 id="lista">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small>
+      <a style="color: red" href="#inicio"> &lt; Voltar para o inicio </a>
+    </small>
+    <p>
+        A principal diferença é que listas ordenadas usam numeração (como 1,2,3) ou letras, indicando que a sequência dos itens é importante, enquanto listas não ordenadas usam marcadores (como círculos ou quadrados), indicando que a ordem dos itens não é relevante. Listas ordenadas são úteis para etapas ou classificações, e listas não ordenadas são ideais para agrupar itens onde a ordem não importa, como em listas de compras ou tópicos.
+    </p>
+
+    <h2 id="tegs"><abbr title="Veja todas as tegs">
+        <a
+             href="https://www.w3schools.com/tags/"
+             target="_blank"
+        >
+        Tegs HTML
+        </a>
+    </abbr>
+    </h2>
+    <small>
+      <a style="color: red" href="#inicio"> &lt; Voltar para o inicio </a>
+    </small>
+
+        <ol>
+            <li><strong>&lt;h1&gt; até &lt;h6&gt;</strong> → Títulos.</li>
+                <ul>
+                    <li>&lt;h1&gt; é o maior, &lt;h6&gt; o menor.</li>
+                </ul>
+            <li><strong>&lt;p&gt;</strong> Parágrafo de texto.</li>
+            <li><strong>&lt;mark&gt;</strong> Destaca o texto (como marca-texto).</li>
+            <li><strong>&lt;small&gt;</strong> Texto menor (nota ou detalhe).</li>
+            <li><strong>&lt;i&gt;</strong> Texto em itálico.</li>
+            <li><strong>&lt;u&gt;</strong> Texto sublinhado.</li>
+            <li><strong>&lt;strong&gt;</strong> Texto em negrito (importante).</li>
+            <li><strong>&lt;ol&gt;</strong> Lista ordenada (numerada).</li>
+            <li><strong>&lt;ul&gt;</strong> Lista não ordenada (com marcadores).</li>
+            <li><strong>&lt;li&gt;</strong> Item da lista.</li>
+            <li><strong>&lt;a&gt;</strong> Link para outra página ou site.</li>
+            <li><strong>&lt;hr&gt;</strong> Linha horizontal (separa seções).</li>
+            <li><strong>&lt;sub&gt;</strong> Texto abaixo (ex: H₂O).</li>
+            <li><strong>&lt;sup&gt;</strong> Texto acima (ex: x²).</li>
+            <li><strong>&lt;blockquote&gt;</strong> Citação de outro texto (recuado).</li>
+            <li><strong>&lt;font&gt;</strong> Define cor, tamanho e tipo da fonte (antiga, não se usa mais — hoje se faz com CSS).</li>
+            <li><strong>&lt;del&gt;</strong> Texto riscado (algo removido).</li>
+            <li><strong>&lt;abbr&gt;</strong> Mostra uma abreviação com significado ao passar o mouse (ex: ONU - Organização das Nações Unidas).</li>
+        </ol>
+
+    <h2 id="linksUtes">Links de referências</h2>
+    <small>
+      <a style="color: red" href="#inicio"> &lt; Voltar para o inicio </a>
+    </small>
+
+    <ul>
+      <li>
+        <a 
+            href="https://pt.wikipedia.org/wiki/Ada_Lovelace"
+            title="Saiba mais"
+            target="_blank"
+        >
+        Ada Lovelace
+        </a>
+      </li>
+      <li>
+        <a 
+            href="https://www.w3schools.com/tags/"
+            title="Saiba mais"
+            target="_blank"
+        >
+        Tegs THML
+        </a>
+      </li>
+      <li>
+        <a 
+            href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content"
+            title="Saiba mais"
+            target="_blank"
+        >
+         Estrutura básica de um HTML
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>
